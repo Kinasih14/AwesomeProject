@@ -29,7 +29,7 @@ type SectionProps = PropsWithChildren<{
   title: string;
 }>;
 
-function Section({children, title}: SectionProps): JSX.Element {
+function Section({children, title}: SectionProps): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -55,7 +55,7 @@ function Section({children, title}: SectionProps): JSX.Element {
   );
 }
 
-function App(): JSX.Element {
+function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
@@ -77,15 +77,16 @@ function App(): JSX.Element {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Nama">
-            Kinasih Sayekti
+           Kinasih Sayekti
           </Section>
           <Section title="NIM">
             22/503909/SV/21557
           </Section>
           <Section title="Kelas">
-            PGPBL B
+            PGPBL - B 
           </Section>
-          <Section title="Akun Sosial Media">
+          <Section title="Follow Me for More">
+            Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
         </View>

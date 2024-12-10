@@ -1,0 +1,44 @@
+{
+  "mahasiswa": [
+    {
+      "id": "3e7c",
+      "first_name": "Kinasih",
+      "last_name": "Sayekti",
+      "email": "kinasihsayekti123@gmail.com",
+      "kelas": "PGPBL B",
+      "gender": "Female"
+    },
+    {
+      "id": "e34e",
+      "first_name": "Kikin",
+      "last_name": "Sayekti",
+      "email": "KikinSayekti@gmail.com",
+      "kelas": "PGPBL B",
+      "gender": "Female"
+    },
+    {
+      "id": "0fea",
+      "first_name": "Hamada",
+      "last_name": "Asahi",
+      "email": "asahiasep@gmail.com",
+      "kelas": "PGPBL A",
+      "gender": "Male"
+    },
+    {
+      "id": "b2c2",
+      "first_name": "Kikin",
+      "last_name": "Nananana",
+      "email": "kinkin@gmail.com",
+      "kelas": "SDGL B",
+      "gender": "Female"
+    },
+    {
+      "id": "1a2c",
+      "first_name": "Khosyi",
+      "last_name": "Nur Aliya",
+      "email": "khosyinuraliya@gmail.com",
+      "kelas": "B",
+      "gender": "Female"
+    }
+  ]
+}
